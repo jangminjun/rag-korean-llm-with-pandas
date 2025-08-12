@@ -2,17 +2,15 @@
 
 ### 1. 테스트 환경
 
-- #### Parasol Insurance AI Workshop
+- GPU Node :
 
-- GPU Node : g6.4xlarge (NVIDIA L4 GPUs)
+- Jupyter Notebook Image : CUDA v12.1, Python v3.11
 
-- Jupyter Notebook Image : CUDA v12.1, Python v3.9
-
-- LLM Model: ibm-granite/granite-3.0-1b-a400m-base
+- LLM Model: ollama
 
 - s3 Storeage : minio
 
-- dataset : huggingface dataset 활용
+- dataset : pandas dataset 활용
 
 ### 2. Jupyter Notebook Python Code
 
@@ -218,3 +216,4 @@
   ```
   
   
+
